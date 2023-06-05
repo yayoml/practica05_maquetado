@@ -1,0 +1,41 @@
+
+* {
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+body {
+    background-color: black;
+    font-weight: bold; 
+    margin: 0;
+    padding: 0;
+}
+
+.main__container__basic {
+    background-color: aqua;
+    border-radius: 25px;
+
+    display: inline-block;
+    text-align: center;  
+}
+
+.card1 {
+    
+    width: 220px;
+    height: 370px;
+    padding: 30px;
+
+}
+
+
+
+
+.button {
+    background-color: white;
+    color: black;
+    
+    
+}
+
+
