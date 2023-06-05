@@ -5,6 +5,9 @@ body {
 
 }
 
+
+/*PRIMERA TABLA*/
+
 .main__container__basic {
     background: #7f7fd5;
     background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
@@ -13,6 +16,7 @@ body {
     display: inline-block;
     position: relative;  
     transition: all 0.3s ease-in-out;
+    margin: 10px;
 }
 
 .BASIC {
@@ -44,8 +48,6 @@ body {
     bottom: 0;
     right: 0;
     background-color: white;
-    
-
 }
 
 .button {
@@ -68,9 +70,130 @@ body {
 
 
 
+/* SEGUNDA TABLA*/
+
+.main__container__awesome {
+    background: #ff416c;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    width: 220px;
+    height: 350px;
+    display: inline-block;
+    position: relative;  
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+}
+
+.AWESOME {
+    text-align: center;
+   
+}
+
+.price {
+    font-size: 100px;
+    text-align: center;
+    
+}
+
+.plan {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.description {
+    list-style: none;
+}
+
+.suscribe__button {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+}
+
+.button {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    transition: all 0.2s ease-out;
+}
+
+.main__container__awesome:hover {
+    transform: scale(1.05);
+}
+
+.main__container__awesome:hover .suscribe__button {
+    width: 100%;
+
+}
 
 
 
+
+
+
+
+/* TERCERA TABLA*/
+.main__container__premium {
+    background: #00b09b;
+    background: linear-gradient(to right, #96c93d, #00b09b);
+    width: 220px;
+    height: 350px;
+    display: inline-block;
+    position: relative;  
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+}
+
+.PREMIUM {
+    text-align: center;
+   
+}
+
+.price {
+    font-size: 100px;
+    text-align: center;
+    
+}
+
+.plan {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.description {
+    list-style: none;
+}
+
+.suscribe__button {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+}
+
+.button {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    transition: all 0.2s ease-out;
+}
+
+.main__container__premium:hover {
+    transform: scale(1.05);
+}
+
+.main__container__premium:hover .suscribe__button {
+    width: 100%;
+
+}
 
 
 
