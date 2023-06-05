@@ -1,60 +1,68 @@
-
-* {
-    color: white;
-    font-family: sans-serif;
-    
-}
-
 body {
     background-color: black;
-    font-weight: bold; 
-    margin: 0;
-    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+
 }
 
 .main__container__basic {
-    background-color: aqua;
-    border-radius: 25px;
-    display: inline-block;
-    text-align: center; 
-    position: relative;
-    
-}
-
-
-.card1 {
-    position: relative;
-    width: 220px;
-    height: 370px;
-    padding: 30px;
-    border-radius: 25px;
     background: #7f7fd5;
-    background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5)
+    background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
+    width: 220px;
+    height: 350px;
+    display: inline-block;
+    position: relative;  
+    transition: all 0.3s ease-in-out;
+}
+
+.BASIC {
+    text-align: center;
+   
+}
+
+.price {
+    font-size: 100px;
+    text-align: center;
     
 }
 
-
-.buy__button {
-    position: absolute;
-    bottom: 0;
-    width: 500px;
+.plan {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
+.description {
+    list-style: none;
+}
+
+.suscribe__button {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    
+
+}
 
 .button {
-    color: black;
-    position: relative;
-    background-color: white;
+    padding: 0;
     margin: 0;
-    
+    font-size: 20px;
+    transition: all 0.2s ease-out;
 }
 
+.main__container__basic:hover {
+    transform: scale(1.05);
+}
 
+.main__container__basic:hover .suscribe__button {
+    width: 100%;
 
-
-    
-
-
+}
 
 
 
