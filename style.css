@@ -15,27 +15,54 @@ body {
 .main__container__basic {
     background-color: aqua;
     border-radius: 25px;
-
     display: inline-block;
-    text-align: center;  
+    text-align: center; 
+    position: relative;
+    
 }
 
+
 .card1 {
-    
+    position: relative;
     width: 220px;
     height: 370px;
     padding: 30px;
-
+    border-radius: 25px;
+    background: #7f7fd5;
+    background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5)
+    
 }
 
 
+.buy__button {
+    position: absolute;
+    bottom: 0;
+    width: 500px;
+}
 
 
 .button {
-    background-color: white;
     color: black;
-    
+    position: relative;
+    background-color: white;
+    margin: 0;
     
 }
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
 
 
